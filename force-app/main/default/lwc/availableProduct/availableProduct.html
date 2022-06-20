@@ -1,0 +1,23 @@
+<template>
+<lightning-card>
+    <div>
+        <template if:false={readOnlyOrder}>
+            <lightning-datatable
+            key-field="id"
+            data={data}
+            columns={columns}
+            hide-checkbox-column="true" 
+            show-row-number-column="true" 
+            onrowaction={callRowAction}>   
+            </lightning-datatable>
+        </template>
+        
+    </div>    
+</lightning-card>
+
+<lightning-card>
+    <div>
+        <c-order-product disp-pdts = {orderPdts}  oid = {orderId} onreadonlyorder = {handlereadonly} oninidata = {handleInitailData}></c-order-product>
+    </div> 
+</lightning-card>
+</template>
