@@ -1,0 +1,15 @@
+{
+    "ContextId": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "KPN_AssignResp": null,
+        "KPN_InsPdt": null,
+        "KPN_UpdateOrderStatus": null
+    }
+}
